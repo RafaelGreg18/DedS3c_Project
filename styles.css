@@ -20,12 +20,17 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    
 }
 
 .navbar-links li{
     list-style: none;
     margin: 20px;
-    margin-left: 50px;
+    padding: 0;
+  }
+
+.navbar-links li:hover{
+  background-color: #343534;
 }
 
 
@@ -36,12 +41,15 @@ body{
     color: white;
     padding: 1rem;
     display: block;
+    
 }
 
 .title{
-    font-size: 3.25rem;
+
+    font-size: 4rem;
     font-family: 'Amatic SC', cursive;
     margin: 0.75rem;
+
 }
 
 .homevideo{
