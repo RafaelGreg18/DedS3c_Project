@@ -15,7 +15,7 @@ p{
 
 .navbar{
     display: flex;
-    height: 5%;
+    height: 1%;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@ p{
 
 .navbar-links li{
     list-style: none;
-    margin: 20px;
+    margin: 10px;
     padding: 0;
   }
 
@@ -46,7 +46,7 @@ p{
     font-family: 'Fira Mono', monospace;
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    padding: .5rem;
     display: block;
     
 }
@@ -67,7 +67,7 @@ p{
 
 .Go4ls{
   /* margin: auto; */
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .Disclaimer{
@@ -79,16 +79,24 @@ p{
   font-size: 3rem;
   color: rgb(255, 255, 255);
   margin-left: 0%;
-  margin-bottom: 3%;
-  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 #goalstext{
   color: white;
   line-height: 1.4;
   font-size: 1.5rem;
-  max-width: 60%;
+  max-width: 58%;
   margin-left: 4%;
+  text-align: justify;
+}
+
+#goalsp{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 2%;
+  font-size: 1.5rem
 }
 
 
@@ -97,6 +105,7 @@ p{
   object-fit: cover;
   max-width: 30%;
   max-height: 30%;
+  margin-top: 3%;
   margin-right: 5%;
 }
 
@@ -119,9 +128,54 @@ p{
   text-align: center;
 }
 
+/* @media (max-witdh:1000px){
+  .img{
+    padding: 7px;
+    width
+  }
+} */
+
+
+.characters{
+  display: grid;
+  margin-top: 10%;
+  grid-template-columns: repeat(2, 200px);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 25%;
+}
+
+.item{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+}
+
+.img{
+  margin-top: 10%;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 80%;
+}
+
+.img:hover {
+  border: rgb(255, 255, 255) solid 5px;
+  transform: scale(1.02);
+}
+
+.bottomtxt{
+  color: white;
+  display: block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.25rem;
+  margin-top: 8%;
+}
+
 
 #disctitle{
   color: white;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #disctext{
