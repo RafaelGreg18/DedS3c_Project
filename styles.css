@@ -128,14 +128,6 @@ p{
   text-align: center;
 }
 
-/* @media (max-witdh:1000px){
-  .img{
-    padding: 7px;
-    width
-  }
-} */
-
-
 .characters{
   display: grid;
   margin-top: 10%;
@@ -151,6 +143,8 @@ p{
   text-align: center;
   width: 200px;
 }
+
+
 
 .img{
   margin-top: 10%;
